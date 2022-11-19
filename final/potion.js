@@ -1,4 +1,6 @@
-class Weed extends LivingCreature{
+let LivingCreature = require("./LivingCreature")
+
+module.exports = class Weed extends LivingCreature{
  constructor(x,y){
   super(x,y)
 }
